@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> DoBu Martial Arts</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <style>
+    body{
+        /*background-image: url('background.jpg')*/;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,1)),url('https://live.staticflickr.com/2323/2376183126_ff2d34f5c3_b.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+
+        }
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Poppins', sans-serif;
+        }
+
+header {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        padding: 20px 100px;
+        background: gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 99;
+        }
+        .topnav a {
+            position: relative;
+            font-size: 1.1em;
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+        }
+
+        .topnav .btnLogin-popup {
+            width: 130px;
+            height: 50px;
+            background: transparent;
+            border: 2px solid white;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1.1em;
+            color: white;
+            font-weight: 500;
+            margin-left: 40px;
+            transition: .5s;
+        }
+
+        .topnav .btnLogin-popup:hover{
+            background-color: aliceblue;
+            color:bisque;
+        }
+        .topnav a.active {
+                background-color: grey;
+                color: white;
+
+            }s
+
+        .topnav a:hover {
+                background-color: white;
+                color: gray;
+
+            }
+
+            .about-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 250px 80px;
+        border-top: 2px solid #eeeeee;
+        }
+
+        .about-me img {
+        width: 500px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        }
+
+        .about-me-text h2 {
+        font-size: 30px;
+        color: #f5ebeb;
+        text-transform: uppercase;
+        margin: 0;
+        }
+
+        .about-me-text p {
+        font-size: 15px;
+        color: #f8f2f2;
+        margin: 10px 0;
+        }
+    </style>
+
+    <header>
+        <img src="logo.png" width="100" height="100">;
+        <nav class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+</header>
+<div class="about-me">
+    <div class="about-me-text">
+      <h2>About Us</h2>
+      <p>Voted as the UAE’s leading martial arts club and the only specialist Character Development Centre in the Middle East.</p>
+    </br> 
+        <p>  Our classes are small, personal and taught by a world class British Team consisting of national, world champions, personal trainers to the Royal Family and best selling authors in the area of Character Development.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="me">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> DoBu Martial Arts</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <style>
+    body{
+        /*background-image: url('background.jpg')*/;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,1)),url('https://live.staticflickr.com/2323/2376183126_ff2d34f5c3_b.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+
+        }
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Poppins', sans-serif;
+        }
+
+header {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        padding: 20px 100px;
+        background: gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 99;
+        }
+        .topnav a {
+            position: relative;
+            font-size: 1.1em;
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+        }
+
+        .topnav .btnLogin-popup {
+            width: 130px;
+            height: 50px;
+            background: transparent;
+            border: 2px solid white;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1.1em;
+            color: white;
+            font-weight: 500;
+            margin-left: 40px;
+            transition: .5s;
+        }
+
+        .topnav .btnLogin-popup:hover{
+            background-color: aliceblue;
+            color:bisque;
+        }
+
+.topnav a.active {
+                background-color: grey;
+                color: white;
+
+            }
+
+.topnav a:hover {
+                background-color: white;
+                color: gray;
+
+            }
+.courses {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 250px 80px;
+        }
+
+.courses .work {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 40px;
+        }
+
+.courses .work i {
+        width: fit-content;
+        font-size: 50px;
+        color: #f5ebeb;
+        border-radius: 50%;
+        border: 2px solid #7651b9;
+        padding: 12px;
+        }
+
+.courses .work .work-heading {
+        font-size: 20px;
+        color: #e0f808b7;
+        text-transform: uppercase;
+        margin: 10px 0;
+        }
+        
+.courses .work .work-text {
+        font-size: 20px;
+        color: #f0e8e8;
+        margin: 10px 0;
+        }
+
+    footer {  
+
+            position: relative;  
+            left: 10px;  
+            bottom: 5px;  
+            right: 10px;  
+            width: 100%;  
+            background-color: gray;  
+            color: white;  
+            text-align: center;  
+            display: inline;
+            }
+</style>
+
+    <header>
+        <img src="logo.png" width="100" height="100">;
+        <nav class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+</header>
+<div class="courses">
+    <div class="work">
+      <p class="work-heading">Basic </p>
+      <p class="work-text">1 martial art – 2 sessions per week – monthly fee</p>
+      <h4 style="color: #eff0e8;" >AED 1500</h4>
+      <p><button class="button"><a href="Contact.html">Contact</button></p></a>
+    </div>
+    <div class="work">
+      <p class="work-heading">Intermediate</p>
+      <p class="work-text">1 martial art – 3 sessions per week – monthly fee</p>
+      <h4 style="color: #f0e8e8;" >AED 2000</h4>
+      <p><button class="button"><a href="Contact.html">Contact</button></p></a>
+    </div>
+    <div class="work">
+      <p class="work-heading">Advanced</p>
+      <p class="work-text">any 2 martial arts – 5 sessions per week – monthly fee</p>
+      <h4 style="color: #f0e8e8;" >AED 2500</h4>
+      <p><button class="button"><a href="Contact.html">Contact</button></p></a>
+    </div>
+    <div class="work">
+        <p class="work-heading">Elite</p>
+        <p class="work-text">Unlimited classes</p>
+        <h4 style="color: #f0e8e8;" >AED 3000</h4>
+        <p><button class="button"><a href="Contact.html">Contact</button></p></a>
+      </div>
+    <div class="work">
+        <p class="work-heading">Private tuition</p>
+        <p class="work-text">Private session</p>
+        <h4 style="color: #f0e8e8;">AED 200</h4>
+        <p><button class="button"><a href="Contact.html">Contact</button></p></a>
+    </div>
+      
+  </div>
+  <div class="footer">  
+    @Copyright Anusha Asim HND Unit 13: Website Design and Development  - All Right Reserved.   
+</div>
+
+</body>
+</html>
